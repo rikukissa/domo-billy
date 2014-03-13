@@ -1,5 +1,5 @@
 require('coffee-script/register');
 
-delete require.cache[require.resolve('./src')];
+delete require.cache[require.resolve('./module')];
 
 module.exports = require('./module');
